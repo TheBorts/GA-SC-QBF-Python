@@ -1,0 +1,17 @@
+Best known = 975.0
+(Gen. 0) BestSol = Solution: cost=[265.0], size=[12], elements=[3, 5, 7, 8, 10, 11, 14, 16, 18, 20, 22, 24]
+Real value = 265.0 Cover = 25
+(Gen. 0 at 0.112s) BestSol = Solution: cost=[466.0], size=[15], elements=[0, 1, 3, 6, 8, 9, 10, 11, 14, 16, 17, 18, 19, 20, 21]
+Real value = 466.0 Cover = 25
+(Gen. 3 at 0.237s) BestSol = Solution: cost=[663.0], size=[15], elements=[0, 3, 5, 6, 8, 9, 11, 14, 16, 17, 18, 19, 20, 21, 24]
+Real value = 663.0 Cover = 25
+(Gen. 4 at 0.279s) BestSol = Solution: cost=[717.0], size=[15], elements=[0, 1, 3, 5, 6, 7, 8, 9, 11, 14, 16, 17, 18, 20, 24]
+Real value = 717.0 Cover = 25
+(Gen. 9 at 0.493s) BestSol = Solution: cost=[881.0], size=[13], elements=[0, 2, 3, 6, 7, 9, 11, 14, 16, 17, 18, 20, 24]
+Real value = 881.0 Cover = 25
+(Gen. 17 at 0.853s) BestSol = Solution: cost=[964.0], size=[12], elements=[0, 2, 3, 6, 9, 11, 14, 16, 17, 18, 20, 24]
+Real value = 964.0 Cover = 25
+(Gen. 22 at 1.071s) BestSol = Solution: cost=[975.0], size=[14], elements=[0, 3, 6, 7, 8, 9, 11, 12, 14, 16, 17, 18, 20, 24]
+Real value = 975.0 Cover = 25
+maxVal = Solution: cost=[975.0], size=[14], elements=[0, 3, 6, 7, 8, 9, 11, 12, 14, 16, 17, 18, 20, 24]
+TotalTime = 1.073 seconds
