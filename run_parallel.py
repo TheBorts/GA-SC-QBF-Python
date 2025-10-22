@@ -13,7 +13,7 @@ from pathlib import Path
 
 # Configuration
 GA_SCRIPT = "src/ga_scqbf.py"   # Path to your translated Python GA solver
-INSTANCES_DIR = "instances"
+INSTANCES_DIR = "fix_instances"
 RESULTS_DIR = "results"
 LOG_DIR = "logs"
 
@@ -25,7 +25,7 @@ PARAM_COMBINATIONS = [
         "enable_uniform_crossover": True,
         "population_size": 100,
         "mutation_rate": 0.05,
-        "time_limit": 30
+        "time_limit": 10
     }
 ]
 

@@ -209,10 +209,20 @@ class MAX_SC_QBF(Evaluator):
             for j in range(len(self.S[i])):
                 self.S[i][j] = int(float(tokens[idx])); idx += 1
 
+        outeri = 0
+        outerj = 0
+
         # Read A matrix
-        for i in range(n):
-            for j in range(n):
-                self.A[i][j] = float(tokens[idx]); idx += 1
+        try:
+            for i in range(n):
+                for j in range(i,n):
+                    outeri = i
+                    outerj = j
+
+                    self.A[i][j] = float(tokens[idx]); idx += 1
+        except IndexError:
+            print(f"Error reading A matrix from file in line:{outeri}, {outerj}, {filename}")
+            raise
 
         # Determine variable indexing offset (0- or 1-based)
         hasZero = any(0 in s for s in self.S)
